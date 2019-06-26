@@ -1,0 +1,389 @@
+* { box-sizing: border-box; }
+body { background-color: #F5F5F5; }
+a { text-decoration: none; }
+a:visited { color: inherit; }
+ul {list-style: none; }
+
+header {
+	height: 55px;
+  border-bottom: 1px solid rgb(230, 221, 221);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.navbtn_logo {
+	float: left;
+	margin-top: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.nav_btn {
+	margin-left: 18px;
+	height: 25px;
+	width: 25px;
+}
+
+
+.yt_logo {
+  padding-left: 18px;
+  height: 30px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+
+/* top-right menu icons from the header */
+
+
+.top_right_menu {
+	float: right;
+	margin-top: -2em;
+	height: 35px;
+	width: 200px;
+  letter-spacing: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.top_right_menu img{
+height: 25px;
+width: 25px;
+margin: 8px;
+}
+
+#profilepic {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin: 8px;
+}
+
+
+/* Search bar */
+
+
+.searchbar {
+	margin-left: 27%;
+	margin-top: 1.3%;
+	height: 32px;
+	width: 550px;
+}
+
+
+.searchbar input {
+	height: 100%;
+	width: 91%;
+  float: left;
+  border: 1px solid #a19f9f;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-default {
+	height: 100%;
+	width: 9%;
+	float: right;
+	border: 0.5px solid;
+	border-color: rgb(204, 204, 204);
+	background-color: #f8f8f8;
+}
+
+.btn-default:hover {
+	background-color: #e9e9e9;
+}
+
+
+/* Magnifying glass entity for the search button */
+
+
+.mglass { margin: auto; }
+
+
+/* Sidebar with Video Thumbnails, sidebar controls */
+
+
+.sidebar {
+	float: right;
+	margin-top: 1.9em;
+	margin-right: 0.7em;
+}
+
+
+.sidebar_controls {margin-bottom: 1em;height: 25px;}
+
+
+.sidebar_controls h4 {
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+	float: left;
+	font-family: Roboto, Arial, sans-serif;
+	color: rgb(17, 17, 17);
+	font-weight: 540;
+}
+
+
+.sidebar_controls p {
+	margin: 0;
+	margin-top: 5px;
+	padding: 0;
+	float: right;
+	padding-right: 2em;
+	font-family:Roboto, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	color: rgb(136, 136, 136);
+}
+
+
+.thumbnails { padding-bottom: 8px; }
+
+
+.thumbnails img {
+	width: 168px;
+	height: 94px;
+}
+
+
+.thumbnails h3 {
+	float: right;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	height: 50px;
+	width: 250px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+}
+
+
+.thumbnails p {
+	color: rgba(17, 17, 17, 0.6);
+	font-size: 13px;
+	font-weight: 400;
+	font-family: Roboto, Arial, sans-serif;
+	margin: 0;
+	margin-top: 3px;
+}
+
+
+/* Embedded video box */
+
+
+.embed {
+	width: 830px;
+	height: 460px;
+	margin-top: 1.7%;
+	margin-left: 4px;
+}
+
+
+/* Video meta, such as titles, views, like/share/subscribe section etc */
+
+
+.video_navbar {
+	height: 80px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.video_navbar h4 { 
+	margin: 0;
+	padding: 0;
+	margin-left: 0.4em;
+	color:rgb(17, 17, 17);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+
+.video_navbar img {float: right;}
+
+
+.video_navbar h3 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-top: 0.7em;
+	margin-left: 0.4em;
+	color: #939393;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+.video_meta {
+	margin-top: 1.7%;
+	width: 835px;
+}
+
+
+/* Video Description with all related elements */
+
+
+.description {
+	width: 833px;
+	height: 190px;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.jre_icon {
+	border-radius: 30px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 1em;
+}
+
+
+.description h4 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Roboto, Arial, sans-serif;
+	color: #070707;
+}
+
+
+.description p {
+	padding: 0;
+	margin: 0;
+	margin-left: 83px;
+	color: rgba(17, 17, 17, 0.6);
+	font-size: 13px;
+	font-weight: 400;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+
+#subscribe_button {
+	float: right;
+	margin-top: -35px;
+    width: 147px;
+    height: 37px;
+    font-size: 14px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+}
+
+
+.short_bio {
+	display: block;
+	margin-left: 10%;
+	width: 576px;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #121212;
+	line-height: 1.5em;
+}
+
+
+.description h3 {
+	margin-left: 10%;
+	margin-top: 2em;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 13px;
+	color: rgba(17, 17, 17, 0.6);
+	font-weight: 555;
+}
+
+
+/* Comment section with commenting field and the comments */
+
+
+.comment_section {
+	width: 833px;
+	height: 200px;
+}
+
+
+.comments_header h4 {
+	display: inline-block;
+	margin-left: 5.2em;
+	color:rgb(17, 17, 17);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+.comments_header p {
+	display: inline;
+	margin-left: 2em;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 15px;
+	color: rgba(17, 17, 17, 0.6);
+	font-weight: 555;
+}
+
+
+.comment_section img {
+	float: left;
+	border-radius: 30px;
+	margin-left: 5.4em;
+}
+
+
+.place_comment { height: 100px; }
+
+
+.place_comment p {
+	display: inline;
+	margin: 0;
+	margin-left: 1em;
+	margin-bottom: 10px;
+	color: rgba(17, 17, 17, 0.6);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.comment {
+	height: 100px;
+	line-height: 20px;
+}
+
+
+.comment h4 {
+	display: inline;
+	margin: 0;
+	margin-left: 1em;
+	font-size: 13px;
+	font-family: Roboto, Arial, sans-serif;
+	color: rgb(17, 17, 17);
+}
+
+
+.comment h5 {
+	margin: 0;
+	display: inline;
+	margin-left: 0.5em;
+	color: rgba(17, 17, 17, 0.6);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+
+.comment p {
+	margin: 0;
+	margin-left: 18%;
+	color: rgb(17, 17, 17);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
